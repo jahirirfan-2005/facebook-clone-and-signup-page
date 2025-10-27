@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+
+}
+
+#logo {
+  font-size: 56px;
+  color: #1877f2;
+  margin-bottom: 15px;
+  padding: 20px 0px;
+}
+
+.signup-form {
+  background-color: #fff;
+  width: 430px;
+  height: 590px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-heading {
+  text-align: center;
+  border-bottom: 1px solid #dddfe2;
+  padding: 10px 0;
+}
+
+.form-heading h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form-heading p {
+  color: #606770;
+  font-size: 15px;
+}
+
+.input-fields {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.half-width {
+  width: 48%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+label {
+  font-size: 13px;
+  color: #606770;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.dob-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.quat-width {
+  width: 31%;
+}
+
+.radio-btn {
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-label {
+  font-size: 14px;
+}
+
+.radio-input {
+  margin: 0;
+}
+
+small {
+  font-size: 11.75px;
+  color: #777;
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+small a {
+  color: #385898;
+  text-decoration: none;
+}
+.button-div{
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.signup-btn {
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 55px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #36a420;
+}
+
+.login-link {
+  display: block;
+  text-align: center;
+  color: #1877f2;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+.account-div{
+  width: 100%;
+  justify-content: center;
+}
