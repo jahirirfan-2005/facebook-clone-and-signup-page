@@ -1,5 +1,3 @@
-# facebook-clone-and-signup-page
-
 # 🌐 Facebook Signup Page (HTML + CSS)
 
 A simple and elegant **Facebook-style Signup Page** built using **HTML5** and **CSS3**.  
@@ -27,4 +25,10 @@ This project recreates Facebook's signup interface with a clean layout, modern f
 ---
 
 ## 📂 Project Structure
+
+facebook-signup/
+│
+├── index.html # Main HTML file
+├── style.css # Stylesheet for the page
+└── README.md # Project documentation
 
