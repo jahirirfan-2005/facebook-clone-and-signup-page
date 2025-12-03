@@ -1,34 +1,44 @@
-# 🌐 Facebook Signup Page (HTML + CSS)
+📘 Facebook Signup Page (HTML, CSS, jQuery Validation)
 
-A simple and elegant **Facebook-style Signup Page** built using **HTML5** and **CSS3**.  
-This project recreates Facebook's signup interface with a clean layout, modern fonts, and responsive structure.
+This project is a Facebook-style signup form created using HTML, CSS, and jQuery Validation.
+The UI closely resembles Facebook’s real signup page and includes form validation, responsive layout, and clean design built using the Roboto font.
 
----
+🚀 Features
 
-## 🚀 Features
+✔️ Facebook-like signup page design
 
-- Clean and minimal Facebook-like UI  
-- Fully responsive layout  
-- Uses **Google Fonts (Roboto)**  
-- Styled input fields and buttons  
-- Gender and date of birth selection  
-- Hover effects on buttons and links  
+✔️ Form validation using jQuery Validate
 
----
+✔️ Input fields:
 
-## 🧰 Technologies Used
+First Name
 
-- **HTML5**
-- **CSS3**
-- **Google Fonts**
+Surname
 
----
+Mobile/Email
 
-## 📂 Project Structure
+Password
 
+Date of Birth
+
+Gender
+
+✔️ Error messages for incorrect/empty fields
+
+✔️ Fully responsive layout
+
+✔️ Clean UI using CSS
+
+🛠️ Technologies Used
+Technology	Purpose
+HTML	Page structure
+CSS	Styling the layout and UI
+jQuery	Form validation
+jQuery Validate Plugin	Automatic form validation
+📂 Project Structure
 facebook-signup/
 │
-├── index.html # Main HTML file
-├── style.css # Stylesheet for the page
-└── README.md # Project documentation
-
+├── index.html
+├── style.css
+├── script.js
+└── README.md
