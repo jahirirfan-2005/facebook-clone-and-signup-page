@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="main-div">
     <h1 id="logo">facebook</h1>
@@ -19,41 +21,44 @@
 
       <div class="input-fields">
         <div class="half-width">
-          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="First name" name="fname"/>
         </div>
         <div class="half-width">
-          <input type="text" placeholder="Surname" />
+          <input type="text" placeholder="Surname" name="sname" />
         </div>
 
         <div class="full-width">
-          <input type="text" placeholder="Mobile number or email address" />
+          <input type="number" placeholder="Mobile number or email address" name="mobile" />
         </div>
 
         <div class="full-width">
-          <input type="password" placeholder="New password" />
+          <input type="password" placeholder="New password" name="password"/>
         </div>
 
         <label>Date of birth</label>
         <div class="dob-div">
           <div class="quat-width">
-            <select>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
+            <select name="day">
+              <option value="">choose</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
             </select>
           </div>
           <div class="quat-width">
-            <select>
-              <option>January</option>
-              <option>February</option>
-              <option>March</option>
+            <select name="month">
+              <option value="">choose</option>
+              <option value="jan">January</option>
+              <option value="feb">February</option>
+              <option value="mar">March</option>
             </select>
           </div>
           <div class="quat-width">
-            <select>
-              <option>2000</option>
-              <option>2001</option>
-              <option>2002</option>
+            <select name="year">
+              <option value="">choose</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
             </select>
           </div>
         </div>
@@ -63,7 +68,7 @@
           <div class="quat-width">
             <div class="radio-btn">
               <label class="radio-label">Female</label>
-              <input type="radio" name="gender" class="radio-input" />
+              <input type="radio" name="gender" class="radio-input" name="gender" />
             </div>
           </div>
           <div class="quat-width">
@@ -85,20 +90,24 @@
         </small>
 
         <small>
-          By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>.
+          By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a
+            href="#">Cookies Policy</a>.
           You may receive SMS notifications from us and can opt out at any time.
         </small>
         <div class="button-div">
           <button type="submit" class="signup-btn">Sign Up</button>
         </div>
-        
+
         <div class="account-div">
           <a href="#" class="login-link">Already have an account?</a>
         </div>
-        
+
       </div>
     </form>
   </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
-
